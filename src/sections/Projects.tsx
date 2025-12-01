@@ -1,6 +1,6 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import icraImage from "@/assets/images/icra2026.png";
+import oceansImage from "@/assets/images/oceans2025.png";
+import nercImage from "@/assets/images/nerc2024.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
@@ -9,46 +9,73 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "ICRA",
+    year: "2026 (Under Review)",
+    title:
+      "Spectral Whitening and Confidence Fusion for Robust Sonar Scan Matching",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      {
+        title:
+          "Developed enhanced FS2D pipeline with multi-band spectral whitening",
+      },
+      {
+        title:
+          "Improved pose estimation stability in low-visibility environments",
+      },
+      {
+        title:
+          "Reduced drift and failure modes in real & simulated sonar mapping",
+      },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "/projects/icra-2026",
+    image: icraImage, // replace with your image
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "OCEANS",
+    year: "2025",
+    title: "Sim-to-Real Sonar Object Detection and Tracking",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      {
+        title:
+          "Built multi-modal sonar dataset spanning simulated & real domains",
+      },
+      {
+        title: "Evaluated YOLOv8 and SiamRPN++ for underwater object tracking",
+      },
+      {
+        title:
+          "Analyzed modality gaps and transferability across sonar sensors",
+      },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "/projects/oceans-2025",
+    image: oceansImage, // replace with your image
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "NERC Poster",
+    year: "2024",
+    title: "Underwater Image Enhancement Using the HoloOcean Simulator",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      {
+        title:
+          "Constructed controlled underwater imaging environments in simulation",
+      },
+      {
+        title:
+          "Benchmarked enhancement models under turbidity & lighting shifts",
+      },
+      {
+        title:
+          "Improved visual clarity to support downstream underwater perception",
+      },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "/projects/nerc-2024",
+    image: nercImage, // replace with your image
   },
 ];
 
 export const ProjectsSection = () => {
   return (
-    <section className="pb-16 lg:py-24">
+    <section id="projects" className="pb-16 lg:py-24">
       <div className="container">
         <div className="flex justify-center">
           <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-center bg-clip-text text-transparent">
@@ -95,7 +122,7 @@ export const ProjectsSection = () => {
                   </ul>
                   <a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                      <span>Visit Live Site</span>
+                      <span>Visit Project</span>
                       <ArrowUpRight className="size-4" />
                     </button>
                   </a>
