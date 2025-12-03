@@ -125,18 +125,23 @@ export const HeroSection = () => {
               <div className="bg-green-500 absolute inset-0 rounded-full animate-ping-large"></div>
             </div>
             <div className="text-sm font-medium">
-              Available for new projects
+              Working on making robots a little less confused
             </div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experiences
+            Eric Huynh
           </h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">
-            I specialize in transforming designed into funcitonal,
-            high-performing web applications. Let&apos;s discuss your next
-            project.
+          <p
+            className="mt-4 text-center text-white/60 md:text-lg"
+            style={{ textAlign: "justify" }}
+          >
+            I’m a master's student at UMass Lowell, working on sonar perception,
+            SLAM, and autonomous control for underwater robots. I'm interested
+            in understanding how robots can learn compact models of the world
+            under partial observability and use them to act confidently in
+            dynamics environments.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
@@ -144,7 +149,7 @@ export const HeroSection = () => {
             href="#projects"
             className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"
           >
-            <span className="font-semibold">Explore My Work</span>
+            <span className="font-semibold">Explore My Research</span>
             <ArrowDown className="size-4" />
           </a>
 

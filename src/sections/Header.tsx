@@ -13,8 +13,11 @@ export const Header = () => {
         <a href="#aboutme" className="nav-item">
           About
         </a>
+        <a href="/CV.pdf" target="_blank" className="nav-item">
+          CV
+        </a>
         <a
-          href="#contactme"
+          href="mailto:youremail@example.com"
           className="nav-item bg-white text-gray-900 hover:bg-white/70 hover:text-gray-900"
         >
           Contact

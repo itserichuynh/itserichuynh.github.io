@@ -17,30 +17,53 @@ import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
-const toolboxItems = [
+const toolboxItems1 = [
   {
-    title: "Javascript",
+    title: "ROS/ROS2",
     iconType: JavascriptIcon,
   },
   {
-    title: "HTML5",
+    title: "Isaac Sim/Isaac Lab",
     iconType: HtmlIcon,
   },
   {
-    title: "CSS3",
+    title: "Pytorch",
     iconType: CssIcon,
   },
   {
-    title: "Chrome",
+    title: "Isaac Sim/Isaac Lab",
     iconType: ReactIcon,
   },
   {
-    title: "Github",
+    title: "C/C++",
     iconType: ChromeIcon,
   },
   {
-    title: "ROS2",
+    title: "Python",
     iconType: GithubIcon,
+  },
+];
+
+const toolboxItems2 = [
+  {
+    title: "Unreal Engine/Unity",
+    iconType: JavascriptIcon,
+  },
+  {
+    title: "Blender",
+    iconType: HtmlIcon,
+  },
+  {
+    title: "SolidWorks",
+    iconType: CssIcon,
+  },
+  {
+    title: "Blender",
+    iconType: ReactIcon,
+  },
+  {
+    title: "GitHub",
+    iconType: ChromeIcon,
   },
 ];
 
@@ -57,12 +80,12 @@ const hobbies = [
     left: "50%",
     top: "5%",
   },
-  {
-    title: "Gaming",
-    emoji: "🎮",
-    left: "10%",
-    top: "35%",
-  },
+  // {
+  //   title: "Gaming",
+  //   emoji: "🎮",
+  //   left: "10%",
+  //   top: "35%",
+  // },
   {
     title: "Hiking",
     emoji: "🌄",
@@ -114,17 +137,16 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Toolbox"
-                description="Explore the technologies and tools I use to craft exceptional
-                digital experiences."
+                description="Explore the technologies and tools I use for work."
                 className=""
               />
               <ToolboxItems
-                items={toolboxItems}
+                items={toolboxItems1}
                 className=""
                 itemsWrapperClassName="animate-move-left [animation-duration:30s]"
               />
               <ToolboxItems
-                items={toolboxItems}
+                items={toolboxItems2}
                 className="mt-6"
                 itemsWrapperClassName="animate-move-right [animation-duration:20s]"
               />
@@ -133,8 +155,8 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-8">
             <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
               <CardHeader
-                title="Beyond the Code"
-                description="Explore my interests and hobbies beyond the digital realm."
+                title="Beyond the Lab"
+                description="Explore my interests and hobbies."
                 className="px-6 py-6"
               />
               <div className="relative flex-1" ref={constrainRef}>
