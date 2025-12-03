@@ -18,7 +18,7 @@ export const ContactSection = () => {
                 Let&apos;s connect
               </h2>
               <p className="text-sm md:text-base mt-2">
-                I&apos;m always happy to talk. Reach out and I&apos;ll get back
+                I&apos;m always happy to chat. Reach out and I&apos;ll get back
                 to you soon.
               </p>
             </div>
