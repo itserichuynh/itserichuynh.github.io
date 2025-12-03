@@ -92,6 +92,7 @@ export const ProjectsSection = () => {
           {portfolioProjects.map((project, projectIndex) => (
             <Card
               key={project.title}
+              id={`project${projectIndex}`}
               className="px-8 pt-8 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky "
               style={{
                 top: `calc(64px + ${projectIndex * 45}px`,

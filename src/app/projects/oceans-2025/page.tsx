@@ -5,7 +5,7 @@ export default function SonarSimToRealPage() {
     <main className="min-h-screen text-white">
       <div className="container mx-auto max-w-3xl px-4 py-16">
         <Link
-          href="/"
+          href="/#projects"
           className="inline-flex items-center text-sm text-white/60 hover:text-white mb-8"
         >
           ← Back to home
@@ -87,7 +87,7 @@ export default function SonarSimToRealPage() {
             Want to discuss underwater sonar perception?
           </p>
           <Link
-            href="/#contactme"
+            href="mailto:itserichuynh@gmail.com"
             className="inline-flex mt-4 px-5 py-2.5 rounded-lg border border-white/20 text-sm font-semibold hover:bg-white hover:text-gray-950 transition"
           >
             Get in touch
