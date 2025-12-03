@@ -141,7 +141,7 @@ export const HeroSection = () => {
             perception, SLAM, and autonomous control for underwater robots.
             I&apos;m interested in understanding how robots can learn compact
             models of the world under partial observability and use them to act
-            confidently in dynamics environments.
+            with confidence in dynamics environments.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
