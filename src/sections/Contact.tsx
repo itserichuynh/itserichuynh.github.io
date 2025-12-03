@@ -18,8 +18,8 @@ export const ContactSection = () => {
                 Let&apos;s connect
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Whether it&apos;’s a new idea, a collaboration, or just a
-                question, feel free to reach out. I answer every message.
+                I&apos;m always happy to talk. Reach out and I&apos;ll get back
+                to you soon.
               </p>
             </div>
             <div>
