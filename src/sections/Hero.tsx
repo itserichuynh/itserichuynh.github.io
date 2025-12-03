@@ -137,7 +137,7 @@ export const HeroSection = () => {
             className="mt-4 text-center text-white/60 md:text-lg"
             style={{ textAlign: "justify" }}
           >
-            I&apos;’m a master&apos;'s student at UMass Lowell, working on sonar
+            I&apos;m a master&apos;s student at UMass Lowell, working on sonar
             perception, SLAM, and autonomous control for underwater robots. I'm
             interested in understanding how robots can learn compact models of
             the world under partial observability and use them to act
