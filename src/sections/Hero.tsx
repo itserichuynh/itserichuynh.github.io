@@ -137,11 +137,11 @@ export const HeroSection = () => {
             className="mt-4 text-center text-white/60 md:text-lg"
             style={{ textAlign: "justify" }}
           >
-            I’m a master's student at UMass Lowell, working on sonar perception,
-            SLAM, and autonomous control for underwater robots. I'm interested
-            in understanding how robots can learn compact models of the world
-            under partial observability and use them to act confidently in
-            dynamics environments.
+            I&apos;’m a master&apos;'s student at UMass Lowell, working on sonar
+            perception, SLAM, and autonomous control for underwater robots. I'm
+            interested in understanding how robots can learn compact models of
+            the world under partial observability and use them to act
+            confidently in dynamics environments.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
