@@ -1,6 +1,7 @@
 import icraImage from "@/assets/images/icra2026.png";
 import oceansImage from "@/assets/images/oceans2025.png";
 import nercImage from "@/assets/images/nerc2024.png";
+import prostheticImage from "@/assets/images/massbay_expo.jpg";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
@@ -24,7 +25,7 @@ const portfolioProjects = [
       },
       {
         title:
-          "Reduced drift and failure modes in real & simulated sonar mapping",
+          "Reduced drift and failure modes in simulated & real sonar mapping",
       },
     ],
     link: "/projects/icra-2026",
@@ -40,7 +41,8 @@ const portfolioProjects = [
           "Built multi-modal sonar dataset spanning simulated & real domains",
       },
       {
-        title: "Evaluated YOLOv8 and SiamRPN++ for underwater object tracking",
+        title:
+          "Evaluated YOLOv8 and SiamRPN++ for underwater object detection & tracking",
       },
       {
         title:
@@ -61,7 +63,7 @@ const portfolioProjects = [
       },
       {
         title:
-          "Benchmarked enhancement models under turbidity & lighting shifts",
+          "Benchmarked enhancement models under lighting shifts and distance-to-target",
       },
       {
         title:
@@ -70,6 +72,27 @@ const portfolioProjects = [
     ],
     link: "/projects/nerc-2024",
     image: nercImage, // replace with your image
+  },
+  {
+    company: "MassBay STEM Expo",
+    year: "2019 - 2020",
+    title: "3D-Printed Prosthetic Arm with Tendon-Driven Actuation",
+    results: [
+      {
+        title:
+          "Designed a fully-functional 3D-printed prosthetic arm using SolidWorks",
+      },
+      {
+        title:
+          "Implemented tendon-driven finger actuation using elastic and inelastic paracord",
+      },
+      {
+        title:
+          "Built control pipeline using EMG signals or MATLAB character recognition",
+      },
+    ],
+    link: "/projects/prosthetic-arm",
+    image: prostheticImage, // replace with your own image import
   },
 ];
 
