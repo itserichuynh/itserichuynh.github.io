@@ -7,7 +7,6 @@ export default function ProstheticArmPage() {
         {/* Back link */}
         <Link
           href="/#projects"
-          scroll={false}
           className="inline-flex items-center text-sm text-white/60 hover:text-white mb-8"
         >
           ← Back to home
