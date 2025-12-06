@@ -4,7 +4,7 @@ export default function ProstheticArmPage() {
   return (
     <main className="min-h-screen text-white">
       <div className="container mx-auto max-w-3xl px-4 py-16">
-        {/* Back link */}
+        {/* Back */}
         <Link
           href="/#projects"
           className="inline-flex items-center text-sm text-white/60 hover:text-white mb-8"
