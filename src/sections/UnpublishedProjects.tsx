@@ -16,7 +16,7 @@ const portfolioProjects = [
     results: [
       {
         title:
-          "Developed and refined a same-day jalapeño cheddar loaf (results were immediately consumed)",
+          "Developed a same-day jalapeño cheddar loaf (results were immediately consumed)",
       },
     ],
     link: "/projects/jalapeno-cheddar",

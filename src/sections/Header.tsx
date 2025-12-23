@@ -18,7 +18,7 @@ export const Header = () => {
         </a>
         <a
           href="/projects/unpublished-experiments"
-          className="nav-item hover:underline"
+          className="nav-item hover:bg-blue-400 hover:text-gray-200"
         >
           Unpublished Experiments
         </a>

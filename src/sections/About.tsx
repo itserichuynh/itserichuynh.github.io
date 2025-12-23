@@ -80,12 +80,12 @@ const hobbies = [
     left: "50%",
     top: "5%",
   },
-  // {
-  //   title: "Gaming",
-  //   emoji: "🎮",
-  //   left: "10%",
-  //   top: "35%",
-  // },
+  {
+    title: "Baking",
+    emoji: "👨‍🍳",
+    left: "10%",
+    top: "35%",
+  },
   {
     title: "Hiking",
     emoji: "🌄",
