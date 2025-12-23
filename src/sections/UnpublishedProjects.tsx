@@ -10,8 +10,8 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Unpublished Work",
-    year: "Ongoing",
+    company: "",
+    year: 'Baked and "Served"',
     title: "Jalapeño Cheddar Bread Loaf",
     results: [
       {
@@ -25,7 +25,7 @@ const portfolioProjects = [
   },
   {
     company: "Unpublished Work",
-    year: "Ongoing",
+    year: "Proofing",
     title: "Cinnamon Rolls",
     results: [
       {
@@ -38,7 +38,7 @@ const portfolioProjects = [
   },
   {
     company: "Unpublished Work",
-    year: "Ongoing",
+    year: "Dialing In",
     title: "Hummus",
     results: [
       {
