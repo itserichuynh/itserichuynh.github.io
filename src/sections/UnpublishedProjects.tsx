@@ -1,6 +1,6 @@
-import icraImage from "@/assets/images/icra_2026.png";
-import oceansImage from "@/assets/images/oceans2025.png";
-import nercImage from "@/assets/images/nerc2024.png";
+import breadImage from "@/assets/images/jalapeno_cheddar.png";
+import cinnamonRollsImage from "@/assets/images/cinnamon_rolls.png";
+import hummusImage from "@/assets/images/hummus.png";
 import prostheticImage from "@/assets/images/massbay_expo.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -10,93 +10,47 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "ICRA",
-    year: "2026 (Under Review)",
-    title:
-      "Spectral Whitening and Confidence Fusion for Robust Sonar Scan Matching",
+    company: "Unpublished Work",
+    year: "Ongoing",
+    title: "Jalapeño Cheddar Bread Loaf",
     results: [
       {
         title:
-          "Developed enhanced FS2D pipeline with multi-band spectral whitening",
-      },
-      {
-        title:
-          "Improved pose estimation stability in low-visibility environments",
-      },
-      {
-        title:
-          "Reduced drift and failure modes in simulated & real sonar mapping",
+          "Developed and refined a same-day jalapeño cheddar loaf (results were immediately consumed)",
       },
     ],
-    link: "/projects/icra-2026",
-    image: icraImage, // replace with your image
+    link: "/projects/jalapeno-cheddar",
+    // link: undefined,
+    image: breadImage, // replace with your bread photo import
   },
   {
-    company: "OCEANS",
-    year: "2025",
-    title: "Sim-to-Real Sonar Object Detection and Tracking",
+    company: "Unpublished Work",
+    year: "Ongoing",
+    title: "Cinnamon Rolls",
     results: [
       {
         title:
-          "Built multi-modal sonar dataset spanning simulated & real domains",
-      },
-      {
-        title:
-          "Evaluated YOLOv8 and SiamRPN++ for underwater object detection & tracking",
-      },
-      {
-        title:
-          "Analyzed modality gaps and transferability across sonar sensors",
+          "Refining a cinnamon roll recipe with generous amount of frosting",
       },
     ],
-    link: "/projects/oceans-2025",
-    image: oceansImage, // replace with your image
+    link: undefined,
+    image: cinnamonRollsImage, // replace with your bread photo import
   },
   {
-    company: "NERC Poster",
-    year: "2024",
-    title: "Underwater Image Enhancement Using the HoloOcean Simulator",
+    company: "Unpublished Work",
+    year: "Ongoing",
+    title: "Hummus",
     results: [
       {
-        title:
-          "Constructed controlled underwater imaging environments in simulation",
-      },
-      {
-        title:
-          "Benchmarked enhancement models under lighting shifts and distance-to-target",
-      },
-      {
-        title:
-          "Improved visual clarity to support downstream underwater perception",
+        title: "Designing a hummus recipe with strong opinions",
       },
     ],
-    link: "/projects/nerc-2024",
-    image: nercImage, // replace with your image
-  },
-  {
-    company: "MassBay STEM Expo",
-    year: "2019 - 2020",
-    title: "3D-Printed Prosthetic Arm with Tendon-Driven Actuation",
-    results: [
-      {
-        title:
-          "Designed a fully-functional 3D-printed prosthetic arm using SolidWorks",
-      },
-      {
-        title:
-          "Implemented tendon-driven finger actuation using elastic and inelastic paracord",
-      },
-      {
-        title:
-          "Built control pipeline using EMG signals or MATLAB character recognition",
-      },
-    ],
-    link: "/projects/prosthetic-arm",
-    image: prostheticImage, // replace with your own image import
+    link: undefined,
+    image: hummusImage, // replace with your bread photo import
   },
 ];
 
-export const ProjectsSection = () => {
+export const UnpublishedProjectsSection = () => {
   return (
     <section id="projects" className="pb-16 lg:py-24">
       <div className="container">
@@ -106,7 +60,7 @@ export const ProjectsSection = () => {
           </p>
         </div>
         <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">
-          Featured Projects
+          Featured Recipes
         </h2>
         {/* <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">
           See how I transformed concepts into engaging digital experiences.
@@ -144,12 +98,22 @@ export const ProjectsSection = () => {
                       </li>
                     ))}
                   </ul>
-                  <a href={project.link}>
-                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                      <span>Visit Project</span>
-                      <ArrowUpRight className="size-4" />
+                  {project.link ? (
+                    <a href={project.link}>
+                      <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
+                        <span>Visit Recipe</span>
+                        <ArrowUpRight className="size-4" />
+                      </button>
+                    </a>
+                  ) : (
+                    <button
+                      disabled
+                      className="bg-white/10 text-white/50 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 cursor-not-allowed border border-white/10"
+                      title="Recipe coming soon"
+                    >
+                      <span>Still Working on Perfecting</span>
                     </button>
-                  </a>
+                  )}
                 </div>
                 <div className="relative">
                   <Image
