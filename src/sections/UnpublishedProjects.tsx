@@ -1,7 +1,7 @@
 import breadImage from "@/assets/images/jalapeno_cheddar.png";
 import cinnamonRollsImage from "@/assets/images/cinnamon_rolls.png";
 import hummusImage from "@/assets/images/hummus.png";
-import prostheticImage from "@/assets/images/massbay_expo.png";
+import kimchiImage from "@/assets/images/hummus.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
@@ -48,6 +48,19 @@ const portfolioProjects = [
     link: undefined,
     image: hummusImage, // replace with your bread photo import
   },
+  {
+    company: "Unpublished Work",
+    year: "Fermenting",
+    title: "Kimchi",
+    results: [
+      {
+        title:
+          "Actively fermenting a kimchi recipe with unpredictable outcomes",
+      },
+    ],
+    link: undefined,
+    image: kimchiImage, // import when ready
+  },
 ];
 
 export const UnpublishedProjectsSection = () => {
@@ -62,9 +75,9 @@ export const UnpublishedProjectsSection = () => {
         <h2 className="font-serif text-3xl md:text-5xl text-center mt-6">
           Featured Recipes
         </h2>
-        {/* <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">
-          See how I transformed concepts into engaging digital experiences.
-        </p> */}
+        <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">
+          No deadlines, mostly snacks.
+        </p>
         <div className="flex flex-col mt-10 md:mt-20 gap-20">
           {portfolioProjects.map((project, projectIndex) => (
             <Card

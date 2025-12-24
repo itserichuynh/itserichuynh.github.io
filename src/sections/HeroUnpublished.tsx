@@ -204,9 +204,13 @@ export const HeroUnpublishedSection = () => {
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
             Eric Huynh
           </h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">
-            A small collection of personal work—photography, cooking, and other
-            side projects.
+          <p className="mt-4 text-center">
+            <span className="block text-white/80 md:text-lg">
+              Unpublished. Unreviewed. Unbothered.
+            </span>
+            <span className="block mt-1 text-white/50 text-sm md:text-base">
+              A collection of personal work.
+            </span>
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
