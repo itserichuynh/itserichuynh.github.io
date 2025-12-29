@@ -1,4 +1,4 @@
-import memojiImage from "@/assets/images/chefkiss.png";
+import memojiImage from "@/assets/images/wavememoji.png";
 import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
@@ -188,7 +188,7 @@ export const HeroUnpublishedSection = () => {
         <div className="flex flex-col items-center">
           <Image
             src={memojiImage}
-            className="size-[180px]"
+            className="size-[150px]"
             alt="Person peeking from behind laptop"
           />
           <div className="bg-gray-950 border border-gray-800 px-4 py-1.5 inline-flex items-center gap-4 rounded-lg">
