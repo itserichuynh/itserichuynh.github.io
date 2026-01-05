@@ -22,7 +22,7 @@ export const UnpublishedHeader = () => {
         >
           Unpublished Experiments
         </a> */}
-        <a href="mailto:youremail@example.com" className="nav-item">
+        <a href="mailto:itserichuynh@gmail.com" className="nav-item">
           contact
         </a>
       </nav>
