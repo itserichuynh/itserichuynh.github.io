@@ -227,7 +227,7 @@ export const PhotographyGallerySection = () => {
                 href="https://www.youtube.com/watch?v=DSWYAclv2I8"
                 className="text-sm text-white/70 hover:text-white underline underline-offset-4"
               >
-                Music: Chillpeach - &apos;'In Dreamland&apos;' background music
+                Music: Chillpeach - &apos;In Dreamland&apos; background music
               </Link>
             </div>
           </Card>
