@@ -215,7 +215,7 @@ export const HeroUnpublishedSection = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <a
-            href="#projects"
+            href="#learning-log"
             className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"
           >
             <span className="font-semibold">Explore More</span>
