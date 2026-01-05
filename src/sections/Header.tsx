@@ -18,7 +18,17 @@ export const Header = () => {
         </a>
         <a
           href="/projects/unpublished-experiments"
-          className="nav-item hover:bg-blue-400 hover:text-gray-200"
+          className="
+            nav-item
+            relative
+            transition-colors duration-300
+            hover:text-white
+            after:absolute after:left-0 after:-bottom-1
+            after:h-[2px] after:w-0
+            after:bg-gradient-to-r after:from-emerald-300 after:to-sky-400
+            after:transition-all after:duration-300
+            hover:after:w-full
+          "
         >
           Unpublished Experiments
         </a>

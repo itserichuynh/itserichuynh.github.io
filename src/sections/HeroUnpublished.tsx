@@ -3,8 +3,8 @@ import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/baguette.svg";
-import SparkleIcon from "@/assets/icons/noodle.svg";
-import IceCreamIcon from "@/assets/icons/taco.svg";
+import TravelIcon from "@/assets/icons/luggage.svg";
+import SelfieIcon from "@/assets/icons/camera.svg";
 import AvocadoIcon from "@/assets/icons/avocado.svg";
 import CupCakeIcon from "@/assets/icons/cupcake.svg";
 import { HeroOrbit } from "@/components/HeroOrbit";
@@ -31,7 +31,7 @@ export const HeroUnpublishedSection = () => {
           shouldSpin
           spinDuration="10s"
         >
-          <SparkleIcon className="size-8 text-emerald-300/20" />
+          <TravelIcon className="size-8 text-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={850}
@@ -81,7 +81,7 @@ export const HeroUnpublishedSection = () => {
           shouldSpin
           spinDuration="8s"
         >
-          <SparkleIcon className="size-5 text-emerald-300/20" />
+          <TravelIcon className="size-5 text-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={520}
@@ -91,7 +91,7 @@ export const HeroUnpublishedSection = () => {
           shouldSpin
           spinDuration="5s"
         >
-          <IceCreamIcon className="size-5 text-emerald-300/20" />
+          <SelfieIcon className="size-12 text-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={530}
@@ -101,7 +101,7 @@ export const HeroUnpublishedSection = () => {
           shouldSpin
           spinDuration="6s"
         >
-          <SparkleIcon className="size-10 text-emerald-300/20" />
+          <TravelIcon className="size-10 text-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={550}
@@ -124,14 +124,14 @@ export const HeroUnpublishedSection = () => {
           <StarIcon className="size-8 text-emerald-300" />
         </HeroOrbit>
         <HeroOrbit
-          size={650}
+          size={720}
           rotation={-5}
           shouldOrbit
           orbitDuration="40s"
           shouldSpin
           spinDuration="10s"
         >
-          <IceCreamIcon className="size-12 text-emerald-300/20" />
+          <SelfieIcon className="size-20 text-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={710}
@@ -141,7 +141,7 @@ export const HeroUnpublishedSection = () => {
           shouldSpin
           spinDuration="12s"
         >
-          <SparkleIcon className="size-14 text-emerald-300/20" />
+          <TravelIcon className="size-14 text-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={720}
@@ -151,7 +151,7 @@ export const HeroUnpublishedSection = () => {
           shouldSpin
           spinDuration="8s"
         >
-          <IceCreamIcon className="size-7 text-emerald-300/20" />
+          <SelfieIcon className="size-7 text-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit
           size={800}
@@ -181,7 +181,7 @@ export const HeroUnpublishedSection = () => {
           shouldSpin
           spinDuration="5s"
         >
-          <IceCreamIcon className="size-10 text-emerald-300/20" />
+          <SelfieIcon className="size-10 text-emerald-300/20" />
         </HeroOrbit>
       </div>
       <div className="container">

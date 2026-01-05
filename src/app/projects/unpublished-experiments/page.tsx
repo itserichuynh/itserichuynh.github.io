@@ -1,8 +1,8 @@
-import { Header } from "@/sections/Header";
+import { UnpublishedHeader } from "@/sections/UnpublishedHeader";
 import { HeroUnpublishedSection } from "@/sections/HeroUnpublished";
 import { UnpublishedProjectsSection } from "@/sections/UnpublishedProjects";
 import { IterationsLogSection } from "@/sections/IterationsLog";
-import { TapeSection } from "@/sections/Tape";
+import { PhotographyGallerySection } from "@/sections/PhotoGallerySection";
 import { AboutSection } from "@/sections/About";
 import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
@@ -10,9 +10,10 @@ import { Footer } from "@/sections/Footer";
 export default function Home() {
   return (
     <div>
-      <Header />
+      <UnpublishedHeader />
       <HeroUnpublishedSection />
       <IterationsLogSection />
+      <PhotographyGallerySection />
       <UnpublishedProjectsSection />
       {/* <TapeSection />
       <AboutSection /> */}
