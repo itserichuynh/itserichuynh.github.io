@@ -206,7 +206,7 @@ export const HeroUnpublishedSection = () => {
           </h1>
           <p className="mt-4 text-center">
             <span className="block text-white/80 md:text-lg">
-              Unpublished. Unreviewed. Unbothered.
+              Unpublished. Unreviewed. Unedited.
             </span>
             <span className="block mt-1 text-white/50 text-sm md:text-base">
               A collection of personal work.
