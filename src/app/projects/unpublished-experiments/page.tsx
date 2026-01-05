@@ -17,7 +17,7 @@ export default function Home() {
       <UnpublishedProjectsSection />
       {/* <TapeSection />
       <AboutSection /> */}
-      <ContactSection />
+      {/* <ContactSection /> */}
       <Footer />
     </div>
   );
